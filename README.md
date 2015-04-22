@@ -7,7 +7,8 @@ Replication of results simply requires the original data set and a single script
 
 ##Steps to perform tidying
 **Setup**
-Get the data. Put the data in the same directory as the script to run the tidying and analysis (r_analysis.R). 
+
+Get the data. Put the relevant data files in the same directory as the script(r_analysis.R). Run the script.  
 
 1. Get data here: [Zip](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 2. Unzip the data file
