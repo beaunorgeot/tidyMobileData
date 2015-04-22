@@ -12,17 +12,8 @@ Get the data. Put the relevant data files in the same directory as the script(r_
 
 1. Get data here: [Zip](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 2. Unzip the data file
-3. Create a new directory and move the following data files to it:
-
-	- features.txt
-	- subject_train.txt
-	- subject_test.txt
-	- X_train.txt
-	- X_test.txt
-	- y_train.txt
-	- y_test.txt
-4. Move run_analysis.R to the same directory as the data files.
-5. Open R and set your working directory for R to the directory that you created.
+4. Move run_analysis.R to the the UCI HAR Dataset directory, which is data set parent directory.
+5. Open R and set your working directory for R to the UCI HAR Dataset directory.
 
 	setwd(""pathToYouDirectory")
 	
