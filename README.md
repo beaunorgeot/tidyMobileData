@@ -10,14 +10,15 @@ Replication of results simply requires the original data set and a single script
 
 Get the data. Put the relevant data files in the same directory as the script(r_analysis.R). Run the script.  
 
-1. Get data here: [Zip](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
+1. Download data [Zip](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) to your working directory.
+	- Planning to download the data using something other than R and don't know where your working directory is?
+	- Open R and type:
+	getwd()
 2. Unzip the data file
-4. Move run_analysis.R to the the UCI HAR Dataset directory, which is data set parent directory.
-5. Open R and set your working directory for R to the UCI HAR Dataset directory.
+4. Move my script,run_analysis.R, to your working directory.
+5. Open R and run_analysis.R
 
-	setwd(""pathToYouDirectory")
-	
-6. Run run_analysis.R
+
 
 **The output of the R script are two tidy data sets** 
 
