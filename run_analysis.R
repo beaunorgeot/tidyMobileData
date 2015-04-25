@@ -61,6 +61,7 @@ molten <- melt(complete, id.vars=c("subjNum","action"),
                variable.name = "feature")
 
 tidy <- dcast(molten, subjNum + action ~ feature, mean)
+#dcast(meltedSetToCast, makeTheseAsRows ~ makeTheseAsColumns)
 
 # I can't figure out how to aggregate going wide-->long. So I aggregated going long --> wide and now melt back 
 # to https://docs.google.com/document/?authuser=0&usp=docs_weblong to produce both types of tidy
