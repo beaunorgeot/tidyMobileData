@@ -16,6 +16,7 @@ Get the data. Put the relevant data files in the same directory as the script(r_
 	getwd()
 2. Unzip the data file
 4. Move my script,run_analysis.R, to your working directory.
+5. Install the 'data.table' & 'reshape2' packages
 5. Open R and run_analysis.R
 
 
